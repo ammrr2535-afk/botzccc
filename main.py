@@ -9,7 +9,7 @@ from requests_toolbelt import MultipartEncoder
 import base64
 
 # ================= [ الإعدادات ] =================
-CHANNEL_USERNAME = "amr458,"
+CHANNEL_USERNAME = "@amr458,"
 # تأكد أن اسم المتغير في Railway هو BOT_TOKEN
 TOKEN = os.environ.get("BOT_TOKEN")
 
@@ -653,7 +653,7 @@ stopuser = {}
 
 token = os.getenv("BOT_TOKEN") 
 bot = telebot.TeleBot(token, parse_mode="HTML")
-admin = 8011795436
+admin = 8855682617
 active_scans = set()
 command_usage = {}
 admin_add_gate_state = {}
