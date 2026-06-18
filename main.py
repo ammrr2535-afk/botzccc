@@ -9,7 +9,7 @@ from requests_toolbelt import MultipartEncoder
 import base64
 
 # ================= [ الإعدادات ] =================
-CHANNEL_USERNAME = "@amr458,"
+CHANNEL_USERNAME = "@amr458"
 # تأكد أن اسم المتغير في Railway هو BOT_TOKEN
 TOKEN = os.environ.get("BOT_TOKEN")
 
