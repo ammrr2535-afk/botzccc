@@ -683,7 +683,7 @@ def send_not_subscribed(chat_id, name):
     keyboard = types.InlineKeyboardMarkup()
     contact_button = types.InlineKeyboardButton(
         text="😈 عنكبوت 😈",
-        url="https://t.me/ankabot6",
+        url="https://t.me/amr458",
         icon_custom_emoji_id=E_CROWN
     )
     keyboard.add(contact_button)
@@ -931,8 +931,8 @@ def start(message):
         keyboard = types.InlineKeyboardMarkup(row_width=2)
         keyboard.add(
             types.InlineKeyboardButton(" My Points 💰", callback_data='my_points'),
-            types.InlineKeyboardButton("المطور  👨‍💻", url="https://t.me/ankabot6"),
-            types.InlineKeyboardButton("قناتي 📢", url="https://t.me/ankabot6")
+            types.InlineKeyboardButton("المطور  👨‍💻", url="https://t.me/amr458"),
+            types.InlineKeyboardButton("قناتي 📢", url="https://t.me/amr458")
         )
 
         welcome_images = [
